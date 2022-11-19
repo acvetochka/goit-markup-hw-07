@@ -964,7 +964,10 @@ body {
 .checkbox:checked ~ .checkbox-icon {
     fill: var(--accent-color);
     border: transparent;
+}
 
+.checkbox-link {
+    color: var(--accent-color);
 }
 
 .btn-send {
