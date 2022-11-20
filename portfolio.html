@@ -57,7 +57,7 @@
       </div>
     </header>
     <main>
-      <section class="section">
+      <section class="projects-section">
         <div class="filter">
           <h1 hidden>Наші проєкти</h1>
           <ul class="filter__list">
@@ -285,65 +285,66 @@
       </section>
     </main>
     <!-- Footer -->
-    <footer class="contacts">
-      <div class="container">
-        <div class="address-container">
-          <a href="./index.html" class="logo--footer">
+    <footer class="page-footer">
+      <div class="page-footer__container">
+        <!-- Контактні дані -->
+        <div class="address">
+          <a href="./index.html" class="logo logo--footer">
             <span class="logo--accent">Web</span>Studio</a
           >
           <address>
-            <ul class="address-list">
+            <ul class="address__list">
               <li>
                 <a
                   href="https://goo.gl/maps/XMncbi9ji453G5f37"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="address-link"
+                  class="address__link"
                 >
                   м. Київ, пр-т Лесі Українки, 26
                 </a>
               </li>
               <li>
-                <a href="mailto:info@devstudio.com" class="address-item"
+                <a href="mailto:info@devstudio.com" class="address__item"
                   >info@devstudio.com</a
                 >
               </li>
               <li>
-                <a href="tel:+380961111111" class="address-item"
+                <a href="tel:+380961111111" class="address__item"
                   >+38 096 111 11 11</a
                 >
               </li>
             </ul>
           </address>
         </div>
-
+        <!-- Приєднуйтесь -->
         <div class="join">
-          <p class="join-p">Приєднуйтесь</p>
-          <ul class="team-icons">
-            <li class="list-icon">
-              <a href="" class="link-icon">
-                <svg class="icon-team">
+          <p class="join__text">Приєднуйтесь</p>
+          <ul class="icons">
+            <li class="icons__list">
+              <a href="" class="icons__link">
+                <svg class="icons__svg">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="list-icon">
-              <a href="" class="link-icon">
-                <svg class="icon-team">
+            <li class="icons__list">
+              <a href="" class="icons__link">
+                <svg class="icons__svg">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="list-icon">
-              <a href="" class="link-icon">
-                <svg class="icon-team">
+            <li class="icons__list">
+              <a href="" class="icons__link">
+                <svg class="icons__svg">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="list-icon">
-              <a href="" class="link-icon">
-                <svg class="icon-team">
+            <li class="icons__list">
+              <a href="" class="icons__link">
+                <svg class="icons__svg">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -352,17 +353,17 @@
         </div>
         <!-- Підпишіться на розсилку -->
         <div class="subscription">
-          <p class="subscr-p">Підпишіться на розсилку</p>
-          <form class="form-subscr">
+          <p class="subscription__text">Підпишіться на розсилку</p>
+          <form class="subscription__form">
             <input
-              class="subscr-input"
-              name="user-name"
+              class="subscription__input"
+              name="user-email"
               type="email"
               placeholder="Email"
             />
-            <button class="subscr-button" type="submit">
+            <button class="subscription__button" type="submit">
               Підписатися
-              <svg class="icon-send">
+              <svg class="subscription__icon">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
@@ -370,8 +371,5 @@
         </div>
       </div>
     </footer>
-    <svg>
-      <use href=""></use>
-    </svg>
   </body>
 </html>

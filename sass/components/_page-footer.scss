@@ -1,0 +1,11 @@
+.page-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: $secondaryBackground;
+}
+
+.page-footer__container {
+    @extend %container;
+    justify-content: start;
+    align-items: baseline;
+}
