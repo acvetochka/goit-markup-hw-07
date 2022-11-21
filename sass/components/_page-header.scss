@@ -1,7 +1,7 @@
 .header {
     border-bottom: 1px solid #ECECEC;
-}
 
-.header__container {
-    @extend %container;
+    &__container {
+        @extend %container;
+    }
 }

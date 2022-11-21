@@ -10,8 +10,6 @@
         padding-left: 0;
         padding-right: 0;
     }
-
-
 }
 
 .icons__list {
@@ -41,19 +39,19 @@
         background-color: $accentColor;
         color: $contrastColor;
     }
-}
 
-.join .icons__link {
-    color: $contrastColor;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%;
-    transition: background-color 250ms $transitionCubic,
-        color 250ms $transitionCubic;
-
-    &:hover, 
-    &:focus {
-        background-color: $accentColor;
+    .join & {
         color: $contrastColor;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        transition: background-color 250ms $transitionCubic,
+            color 250ms $transitionCubic;
+    
+        &:hover, 
+        &:focus {
+            background-color: $accentColor;
+            color: $contrastColor;
+        }
     }
 }
 
